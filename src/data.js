@@ -1,0 +1,21 @@
+const G=(a,b)=>`linear-gradient(135deg,${a},${b})`;
+export const M=[
+ {id:1,t:'Animal',type:'movie',g:['Action','Crime','Thriller'],l:'Hindi',tm:'Evening',p:50,s:'Platinum',bg:G('#5a0a0a','#e0302c'),d:'A son\'s obsession with his father turns violent.',yt:'Animal movie trailer'},
+ {id:2,t:'Money Heist',type:'series',g:['Crime','Thriller','Web Series'],l:'Spanish',tm:'Morning',p:25,s:'Golden',bg:G('#111','#c1121f'),d:'A group of robbers executes a brilliant heist under the guidance of \'The Professor\'.',date:'04-Dec-2024',day:'Thursday',show:'11:00 AM',yt:'Money Heist trailer'},
+ {id:3,t:'Black Adam',type:'movie',g:['Action','Adventure','Science Fiction'],l:'English',tm:'Evening',p:20,s:'Silver',bg:G('#3b2a08','#e3b53f'),d:'An ancient champion is freed after 5,000 years.',yt:'Black Adam trailer'},
+ {id:4,t:'Friends',type:'series',g:['Comedy','Romantic','Web Series'],l:'English',tm:'Morning',p:15,s:'Silver',bg:G('#2a4d69','#f2a65a'),d:'Six friends navigate life and love in New York.',date:'05-Dec-2024',day:'Friday',show:'10:00 AM',yt:'Friends trailer'},
+ {id:5,t:'Jodhaa Akbar',type:'movie',g:['Historical','Romantic','Drama'],l:'Hindi',tm:'Morning',p:18,s:'Golden',bg:G('#4a2c0f','#d98e3d'),d:'A royal marriage becomes a story of love and respect.',yt:'Jodhaa Akbar trailer'},
+ {id:6,t:'Sherlock',type:'tv',g:['Crime','Drama','Thriller'],l:'English',tm:'Evening',p:12,s:'Silver',bg:G('#1b2a41','#6c8ead'),d:'A modern detective solves London\'s hardest cases.',date:'06-Dec-2024',day:'Saturday',show:'08:00 PM',yt:'Sherlock trailer'},
+ {id:7,t:'Gladiator',type:'movie',g:['Historical','Action','Drama'],l:'English',tm:'Evening',p:22,s:'Platinum',bg:G('#3a2412','#a0522d'),d:'A betrayed general fights his way back through the arena.',yt:'Gladiator trailer'},
+ {id:8,t:'Dil Chahta Hai',type:'movie',g:['Comedy','Romantic','Drama'],l:'Hindi',tm:'Morning',p:14,s:'Silver',bg:G('#0f4c5c','#e36414'),d:'Three friends, three very different roads to love.',yt:'Dil Chahta Hai trailer'},
+ {id:9,t:'Inception',type:'movie',g:['Science Fiction','Action','Thriller'],l:'English',tm:'Evening',p:20,s:'Platinum',bg:G('#0b132b','#5bc0be'),d:'A thief enters dreams to plant an idea.',yt:'Inception trailer'},
+ {id:10,t:'3 Idiots',type:'movie',g:['Comedy','Drama'],l:'Hindi',tm:'Morning',p:16,s:'Golden',bg:G('#1d3557','#f4a261'),d:'Three friends chase real learning over marks.',yt:'3 Idiots trailer'},
+ {id:11,t:'Breaking Bad',type:'series',g:['Crime','Drama','Thriller','Web Series'],l:'English',tm:'Evening',p:15,s:'Golden',bg:G('#1b4332','#74c69d'),d:'A teacher turns to crime to secure his family.',date:'07-Dec-2024',day:'Sunday',show:'09:00 PM',yt:'Breaking Bad trailer'},
+ {id:12,t:'Narcos',type:'series',g:['Crime','Drama','Web Series'],l:'Spanish',tm:'Evening',p:14,s:'Silver',bg:G('#3d0c02','#e85d04'),d:'The rise and fall of Colombia\'s drug kingpins.',date:'08-Dec-2024',day:'Monday',show:'08:00 PM',yt:'Narcos trailer'},
+ {id:13,t:'Mughal-e-Azam',type:'movie',g:['Historical','Romantic','Drama'],l:'Hindi',tm:'Morning',p:12,s:'Silver',bg:G('#432818','#bb9457'),d:'A prince\'s love defies an emperor\'s throne.',yt:'Mughal-e-Azam trailer'},
+ {id:14,t:'The Mandalorian',type:'tv',g:['Adventure','Science Fiction'],l:'English',tm:'Morning',p:13,s:'Silver',bg:G('#222','#8d99ae'),d:'A lone bounty hunter roams the galaxy.',date:'09-Dec-2024',day:'Tuesday',show:'10:00 AM',yt:'The Mandalorian trailer'}
+];
+export const CATS=['Adventure','Action','Comedy','Drama','Thriller','Web Series','Science Fiction','Historical','Crime','Romantic'];
+export const BR=[{n:'Cinemix Downtown',a:'12 Main Blvd',h:'10 AM – 1 AM',ph:'+92 300 1112233'},{n:'Cinemix Mall Road',a:'45 Mall Road',h:'11 AM – 2 AM',ph:'+92 300 4445566'},{n:'Cinemix Riverside',a:'8 River View Plaza',h:'12 PM – 12 AM',ph:'+92 300 7778899'}];
+export const OF=[{c:'CINE10',t:'10% off any booking',p:10,min:1},{c:'STUDENT15',t:'15% off with student ID',p:15,min:1},{c:'FAMILY20',t:'20% off when you book 4+ seats',p:20,min:4}];
+export const SEEDS=[{name:'Moiz Ahmad',text:'Loved the movie experience! Highly recommended.',r:5},{name:'Sami Ullah',text:'The seats were comfortable, and the service was excellent.',r:5},{name:'Seeman Ali',text:'Great sound quality and visuals. Will visit again!',r:4}];
